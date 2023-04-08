@@ -1,7 +1,7 @@
 import Carousel from "../components/HomepageComponents/Carousel";
 import FindJob from "../components/HomepageComponents/FindJob";
 import Countrylist from "../components/HomepageComponents/CountryList";
-import Cogwheel from "../icons/Cogwheel.png";
+
 import User from "../icons/User.png";
 import World from "../icons/World.png";
 import Category from "../components/HomepageComponents/Category";
@@ -20,7 +20,11 @@ function Home() {
       </div>
       <div className="flex row-start-2 justify-around w-screen bg-white mt-2">
         <div className="sm:flex items-center gap-2">
-          <img className="w-10 bg-red-500 rounded-full" src={Cogwheel} alt="" />
+          <img
+            className="w-10 bg-red-500 rounded-full"
+            src="https://i.ibb.co/hXz7fGW/cogwheel.png"
+            alt=""
+          />
           <div className="flex flex-col">
             <h2>No. of vacancies</h2>
             <h3 className="text-red-500">130</h3>

@@ -1,7 +1,7 @@
-import menu from "../../assets/menu.png";
-import user from "../../assets/user.png";
-import FacebookIco from "../../assets/Facebook.png";
-import YoutubeIco from "../../assets/Youtube.png";
+import menu from "../../icons/menu.png";
+import user from "../../icons/user.png";
+import FacebookIco from "../../icons/Facebook.png";
+import YoutubeIco from "../../icons/Youtube.png";
 import { useState } from "react";
 const Navigationbar = () => {
   const [isActive, setIsActive] = useState(false);

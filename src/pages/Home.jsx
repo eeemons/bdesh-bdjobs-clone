@@ -1,9 +1,9 @@
 import Carousel from "../components/HomepageComponents/Carousel";
 import FindJob from "../components/HomepageComponents/FindJob";
 import Countrylist from "../components/HomepageComponents/CountryList";
-import Cogwheel from "../assets/Cogwheel.png";
-import User from "../assets/User.png";
-import World from "../assets/World.png";
+import Cogwheel from "../icons/Cogwheel.png";
+import User from "../icons/User.png";
+import World from "../icons/World.png";
 import Category from "../components/HomepageComponents/Category";
 import JobsCarousel from "../components/HomepageComponents/JobsCarousel";
 function Home() {

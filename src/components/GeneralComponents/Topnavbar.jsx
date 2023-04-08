@@ -1,5 +1,5 @@
-import FacebookIco from "../../assets/Facebook.png";
-import YoutubeIco from "../../assets/Youtube.png";
+import FacebookIco from "../../icons/Facebook.png";
+import YoutubeIco from "../../icons/Youtube.png";
 
 const Topnavbar = () => {
   return (

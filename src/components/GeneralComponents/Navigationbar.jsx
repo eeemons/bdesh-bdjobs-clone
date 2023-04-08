@@ -1,7 +1,3 @@
-import menu from "../../icons/menu.png";
-import user from "../../icons/user.png";
-import FacebookIco from "../../icons/Facebook.png";
-import YoutubeIco from "../../icons/Youtube.png";
 import { useState } from "react";
 const Navigationbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -12,7 +8,7 @@ const Navigationbar = () => {
   return (
     <div className="w-full bg-white flex md:justify-around mt-2">
       <a className="w-10 md:hidden" onClick={close} href="#">
-        <img src={menu} alt="" />
+        <img src="https://i.ibb.co/ZVLtr3p/menu.png" alt="" />
       </a>
 
       {isActive ? (
@@ -26,13 +22,25 @@ const Navigationbar = () => {
             alt=""
           />
           <div className="absolute right-1 top-2 flex gap-2">
-            <img src={FacebookIco} alt="" className="w-6 h-6 cursor-pointer" />
-            <img src={YoutubeIco} alt="" className="w- h-6 cursor-pointer" />
+            <img
+              src="https://i.ibb.co/k1C7z22/facebook.png"
+              alt=""
+              className="w-6 h-6 cursor-pointer"
+            />
+            <img
+              src="https://i.ibb.co/TcVc80T/youtube.png"
+              alt=""
+              className="w- h-6 cursor-pointer"
+            />
           </div>
           <div className="flex flex-col">
             <div className="flex gap-3">
               <div className="inline-flex items-center gap-1 ">
-                <img className="w-4" src={user} alt="" />
+                <img
+                  className="w-4"
+                  src="https://i.ibb.co/TBv5qtn/user.png"
+                  alt=""
+                />
                 <a className="text-black" href="#">
                   User
                 </a>
@@ -93,7 +101,11 @@ const Navigationbar = () => {
       <div className="hidden md:block">
         <div className="flex gap-3">
           <div className="inline-flex items-center gap-1">
-            <img className="w-4" src={user} alt="" />
+            <img
+              className="w-4"
+              src="https://i.ibb.co/TBv5qtn/user.png"
+              alt=""
+            />
             <a href="#">User</a>
           </div>
           <a href="/contact">Contact</a>

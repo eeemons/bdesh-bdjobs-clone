@@ -1,9 +1,6 @@
 import Carousel from "../components/HomepageComponents/Carousel";
 import FindJob from "../components/HomepageComponents/FindJob";
 import Countrylist from "../components/HomepageComponents/CountryList";
-
-import User from "../icons/User.png";
-import World from "../icons/World.png";
 import Category from "../components/HomepageComponents/Category";
 import JobsCarousel from "../components/HomepageComponents/JobsCarousel";
 function Home() {
@@ -31,14 +28,22 @@ function Home() {
           </div>
         </div>
         <div className="sm:flex items-center gap-2">
-          <img className="w-10 bg-green-500 rounded-full" src={User} alt="" />
+          <img
+            className="w-10 bg-green-500 rounded-full"
+            src="https://i.ibb.co/TBv5qtn/user.png"
+            alt=""
+          />
           <div className="flex flex-col">
             <h2>No. of vacancies</h2>
             <h3 className="text-green-500">130</h3>
           </div>
         </div>
         <div className="sm:flex items-center gap-2">
-          <img className="w-10 bg-orange-500 rounded-full" src={World} alt="" />
+          <img
+            className="w-10 bg-orange-500 rounded-full"
+            src="https://i.ibb.co/k6YpN61/world.png"
+            alt=""
+          />
           <div className="flex flex-col">
             <h2>No. of vacancies</h2>
             <h3 className="text-orange-500">130</h3>

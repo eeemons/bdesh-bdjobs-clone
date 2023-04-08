@@ -1,6 +1,3 @@
-import FacebookIco from "../../icons/Facebook.png";
-import YoutubeIco from "../../icons/Youtube.png";
-
 const Topnavbar = () => {
   return (
     <div className="hidden sm:flex w-full border place-content-between items-center bg-gray-100 p-1">
@@ -31,8 +28,16 @@ const Topnavbar = () => {
         </a>
       </div>
       <div className="flex gap-2 items-center">
-        <img src={FacebookIco} alt="" className="w-6 h-6 cursor-pointer" />
-        <img src={YoutubeIco} alt="" className="w- h-6 cursor-pointer" />
+        <img
+          src="https://i.ibb.co/k1C7z22/facebook.png"
+          alt=""
+          className="w-6 h-6 cursor-pointer"
+        />
+        <img
+          src="https://i.ibb.co/TcVc80T/youtube.png"
+          alt=""
+          className="w- h-6 cursor-pointer"
+        />
 
         <label className="inline-flex items-center p-1 cursor-pointer dark:bg-gray-300 dark:text-gray-800">
           <input id="Toggle4" type="checkbox" className="hidden peer" />
